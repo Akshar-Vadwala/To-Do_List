@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	
+		<title>TO-DO List</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href=" {{ url_for('static',filename='style.css') }} ">
+	</head>
+	
+<body>
+
+	<h2>TO-DO List<h2>
+	
+	<form method="POST" action="{{ url_for('add_item') }}">
+		<input type="text" name="item" placeholder="Enter your task" required>
+		<button type="submit" >Add task to Your List</button>
+	</form>
+	
+	<ul>
+	
+		{% for value in values %}
+			<li>{{ value }}</li>
+		{% endfor %}
+	</ul>
+	
+	<form method="POST" action= "{{ url_for('remove_item') }}">
+		<input type="text" name="del" placeholder="Enter task to delete">
+		<button type="submit" >Remove task from Your List</button>
+	</form>
+	
+</body>
+	
+</html>

@@ -1,0 +1,56 @@
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  color: #333333;
+}
+
+h2 {
+  text-align: center;
+  margin: 20px 0;
+}
+
+/*For the text box*/
+form:first-child input[type="text"], form:last-child input[type="text"] {
+  width: 70%;
+  padding: 8px;
+  border: 1px solid #cccccc ;
+  border-radius: 5px;
+}
+
+/*For Add task to list button*/
+form:first-child button {
+  padding: 8px 15px;
+  border: none;
+  background-color: #4CAF50;
+  color: #ffffff;
+  border-radius: 5px;
+}
+
+/*For Remove task from list button*/
+form:last-child button{
+	padding: 8px 15px;
+	border: none;
+	background-color:#f44336;
+	color: #ffffff;
+	border-radius: 5px;
+}
+
+/*For displaying tasks*/
+ul {
+	list-style-type: none; /*Removes bullets*/
+	padding: 0;
+}
+
+ul li {
+  background-color: #ffffff;
+  padding: 10px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  box-shadow: 10px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
