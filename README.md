@@ -12,7 +12,8 @@ TodoApp is a simple application for managing your tasks. It allows users to add 
 - **Database:** MySQL
 
 ## Demo Video
-![Watch Demo Video](/to-do_app/static/demo.mp4)
+![](/to-do_app/static/demo.gif)
+[Download Demo Video](/to-do_app/static/demo.mp4)
 
 ## Installation
 To run TodoApp locally, follow these steps:
