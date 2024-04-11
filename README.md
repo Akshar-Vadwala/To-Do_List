@@ -13,6 +13,7 @@ TodoApp is a simple application for managing your tasks. It allows users to add 
 
 ## Demo Video
 ![](/to-do_app/static/demo.gif)
+
 [Download Demo Video](/to-do_app/static/demo.mp4)
 
 ## Installation
